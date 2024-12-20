@@ -32,7 +32,7 @@ const Header = () => {
                                     onClick={() => handleClick(index)}
                                     className="hover:text-gray-600 transition-colors relative z-[51] duration-200 focus:outline-none"
                                 >
-                                    {item.title}
+                                    {item.name}
                                 </button>
                                 {item.subMenu && activeIndex === index && (
                                     <div className="absolute left-0 mt-2 w-48 z-[52] bg-white text-gray-800 rounded shadow-lg">

@@ -1,14 +1,38 @@
-export const HEADER_LIST =[
+export const HEADER_LIST = [
     {
-        title: 'How We Help ▼'
+        url: '/',
+        name: 'How We Help ▼',
+        subMenu: [
+            "Email Marketing",
+            "dummy",
+            "dummy",
+        ]
     },
     {
-        title: 'Who We Help ▼'
+        url: '/',
+        name: 'Who We Help ▼',
+        subMenu: [
+            "Email Marketing",
+            "dummy",
+            "Content Marketing",
+        ]
     },
     {
-        title: 'Why Venveo ▼'
+        url: '/',
+        name: 'Why Venveo ▼',
+        subMenu: [
+            "Email Marketing",
+            "Content Marketing",
+            "dummy",
+        ]
     },
     {
-        title: 'Resources ▼'
+        url: '/',
+        name: 'Resources ▼',
+        subMenu: [
+            "Email Marketing",
+            "dummy",
+            "Content Marketing",
+        ]
     },
 ]
