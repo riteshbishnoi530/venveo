@@ -35,4 +35,22 @@ export const HEADER_LIST = [
             "Content Marketing",
         ]
     },
+];
+
+export const FEATURED_LIST = [
+{
+    image: "/assets/image/wsj.webp"
+},
+{
+    image: "/assets/image/entrepreneur.webp"
+},
+{
+    image: "/assets/image/entrepreneur.webp"
+},
+{
+    image: "/assets/image/forbes.webp"
+},
+{
+    image: "/assets/image/inc.webp"
+}
 ]
