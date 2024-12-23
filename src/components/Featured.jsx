@@ -7,11 +7,11 @@ function Featured() {
             <div>
                 <p className='text-center text-custom-sm mb-12'>Featured in</p>
             </div>
-            <div className='overflow-x-scroll  mb-[70px]'>
-            <div className='flex w-[1025px] mx-auto  gap-[123px] px-4 mb-2'>
+            <div className='overflow-hidden'>
+            <div className='flex slide-scroll-left gap-[123px] w-[1024px]  mx-auto max-lg:gap-12 px-4 mb-[74px] max-md:mb-12'>
                 {FEATURED_LIST.map((item, index) => (
                     <div key={index}>
-                        <img className='h-9 pointer-events-none' src={item.image} alt={item.imageName} />
+                        <img className='h-9 max-sm:h-5 pointer-events-none' src={item.image} alt={item.imageName}/>
                     </div>
                 ))}
             </div>

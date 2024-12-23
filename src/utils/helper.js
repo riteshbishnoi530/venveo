@@ -132,7 +132,7 @@ export const CLIENTS_CARDS = [
       logo: <GenratingIcon/>,
       title: "My website isn’t generating enough leads",
       description:
-        "Without consistent site traffic, you’re missing out on valuable visitors, leads, and revenue. Thankfully, custom SEO solutions can get you back on track by boosting your presence in search engine results, so more people can find and visit your site.",
+        "Struggling to get qualified leads in your pipeline? Turn up the dial on your lead generation with digital marketing plans, tailored to your goals and budget..",
       listOne: "Fill up your lead pipeline",
       listTwo: "Reach your most valuable audience",
       listThree: "Maximize conversion opportunities",
@@ -142,7 +142,7 @@ export const CLIENTS_CARDS = [
       logo: <FourCircleIcon/>,
       title: "My marketing and sales data is disconnected",
       description:
-        "Without consistent site traffic, you’re missing out on valuable visitors, leads, and revenue. Thankfully, custom SEO solutions can get you back on track by boosting your presence in search engine results, so more people can find and visit your site.",
+        "Don’t let leads slip through the cracks. Unify your sales and marketing efforts with Nutshell and MarketingCloudFX, to provide end-to-end reporting and analysis of your data.",
       listOne: "Unify sales and marketing data",
       listTwo: "Prioritize leads with data-backed insights",
       listThree: "Turn opportunities into closed deals",

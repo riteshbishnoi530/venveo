@@ -7,3 +7,42 @@
 *{
   font-family: "maison-neue";
 }
+
+@media (max-width:1024px){
+  @keyframes slide-right{
+    0% {
+      transform: translateX(100%);
+    }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .slide-scroll-left {
+    animation: slide-right 10s linear infinite;
+    }
+
+  .slide-scroll-left:hover {
+    animation-play-state: paused;
+  }
+}
+@media (max-width:640px){
+  @keyframes slide-right{
+    0% {
+      transform: translateX(50%);
+    }
+  
+    100% {
+      transform: translateX(-55%);
+    }
+  }
+  
+  .slide-scroll-left {
+    animation: slide-right 10s linear infinite;
+    }
+
+  .slide-scroll-left:hover {
+    animation-play-state: paused;
+  }
+}

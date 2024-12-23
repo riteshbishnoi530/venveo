@@ -8,18 +8,18 @@ const Marketing = () => {
     return (
         <div className="pt-[132px] pb-[129px] max-xl:py-28 max-lg:py-20 max-md:py-16 max-sm:py-10 relative">
             <SubHeading heading="Problems we solve." />
-            <div className="max-w-[552px] mx-auto">
+            <div className="max-w-[560px] mx-auto">
                 <Heading boldHeading="Digital Marketing for today’s Business" />
             </div>
-            <p className="font-normal text-custom-sm px-4 uppercase text-center max-w-[614px] leading-[20px] pt-6 text-black mx-auto tracking-[1px]">
+            <p className="font-semibold text-custom-sm px-4 text-center max-w-[625px] leading-[20px] pt-6 text-black mx-auto tracking-[1px]">
                 We help companies scale their strategies across multiple channels to drive more revenue, more quickly, without cutting corners.
             </p>
             <img
                 src="/assets/images/yello-line.webp"
                 alt="yellow-line"
-                className="w-full absolute -z-10 translate-y-[6rem]"
+                className="w-full absolute -z-10 translate-y-36"
             />
-            <div className="flex flex-wrap gap-[66px] max-md:gap-6 justify-center pt-10 max-sm:pt-[33px] px-4 max-w-[1920px] mx-auto">
+            <div className="flex flex-wrap gap-x-[66px] gap-y-[57px] max-md:gap-6 justify-center pt-[83px] max-sm:pt-[33px] px-4 max-w-[1920px] mx-auto">
                 {MARKETING_LIST.map((obj, i) => (
                     <div
                         key={i}
@@ -29,7 +29,7 @@ const Marketing = () => {
                             <p>{obj.logo}</p>
                             <div>
                                 <h3 className="text-black font-light text-[30px] leading-[30px] max-w-[325px]">{obj.title}</h3>
-                                <p className="text-black font-normal max-w-[315px] tracking-[2px] pt-5 leading-[20px] text-custom-sm">{obj.description}</p>
+                                <p className="text-black font-semibold max-w-[315px] tracking-[2px] pt-5 leading-[20px] text-custom-sm">{obj.description}</p>
                                 <ul className="list-disc pl-5 mt-7 max-w-[285px]">
                                     <li className='font-semibold text-black leading-[20px] text-custom-sm'>{obj.listOne}</li>
                                     <li className='font-semibold text-black leading-[20px] text-custom-sm'>{obj.listTwo}</li>
