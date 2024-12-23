@@ -3,9 +3,9 @@
 @tailwind utilities;
 @font-face {
   font-family: "sohne-schmal";
-  src: url("/public/assets/font/TestSohneSchmal-Fett-BF663d89cadad5a.otf") format("truetype");
+  src: url("/public/assets/fonts/TestSohneSchmal-Fett-BF663d89cadad5a.otf") format("truetype");
  }
  @font-face {
   font-family: "maison-neue";
-  src: url("/public/assets/font/MaisonNeue-Light.otf") format("truetype");
+  src: url("/public/assets/fonts/MaisonNeue-Light.otf") format("truetype");
  }
