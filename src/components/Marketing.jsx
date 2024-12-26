@@ -8,10 +8,10 @@ const Marketing = () => {
     return (
         <div className="pt-[132px] pb-[129px] max-xl:py-28 max-lg:py-20 max-md:py-16 max-sm:py-10 relative">
             <SubHeading heading="Problems we solve." />
-            <div className="max-w-[560px] mx-auto">
+            <div className="max-w-[590px] mx-auto px-4">
                 <Heading boldHeading="Digital Marketing for today’s Business" />
             </div>
-            <p className="font-semibold text-custom-sm px-4 text-center max-w-[625px] leading-[20px] pt-6 text-black mx-auto tracking-[1px]">
+            <p className="space-mono text-custom-sm px-4 text-center max-w-[625px] leading-[20px] pt-6 text-black mx-auto tracking-[1px]">
                 We help companies scale their strategies across multiple channels to drive more revenue, more quickly, without cutting corners.
             </p>
             <img
@@ -23,13 +23,13 @@ const Marketing = () => {
                 {MARKETING_LIST.map((obj, i) => (
                     <div
                         key={i}
-                        className="border-2 relative z-40 max-w-[502px] bg-white border-solid border-[#00AFB5] rounded-[25px] pl-[48px] ps-[38px] max-md:p-10 max-sm:p-7 pt-[65px] pb-[54px] w-[calc(50%-12px)] max-lg:w-full"
+                        className="border-2 relative z-40 max-w-[503px] bg-white border-solid border-[#00AFB5] rounded-[25px] pl-[48px] ps-[38px] max-md:p-10 max-sm:p-7 pt-[65px] pb-[39px] w-full max-lg:w-full"
                     >
                         <div className="flex items-start gap-6 max-sm:flex-col">
-                            <p>{obj.logo}</p>
+                            <div>{obj.logo}</div>
                             <div>
                                 <h3 className="text-black font-light text-[30px] leading-[30px] max-w-[325px]">{obj.title}</h3>
-                                <p className="text-black font-semibold max-w-[315px] tracking-[2px] pt-5 leading-[20px] text-custom-sm">{obj.description}</p>
+                                <p className="text-black font-medium space-mono max-w-[315px] pt-5 leading-[20px] text-custom-sm">{obj.description}</p>
                                 <ul className="list-disc pl-5 mt-7 max-w-[285px]">
                                     <li className='font-semibold text-black leading-[20px] text-custom-sm'>{obj.listOne}</li>
                                     <li className='font-semibold text-black leading-[20px] text-custom-sm'>{obj.listTwo}</li>

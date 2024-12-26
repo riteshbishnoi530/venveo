@@ -4,8 +4,44 @@
   font-family: "sohne-schmal";
  }
 
+ .space-mono{
+  font-family: "space-mono";
+ }
+
 *{
   font-family: "maison-neue";
+}
+
+.swiper-button-next:after{
+  display: none !important;
+}
+
+.swiper-button-prev:after{
+  display: none !important;
+}
+
+.swiper-button-prev{
+  width: 60px !important;
+}
+
+.swiper-button-next{
+  width: 60px !important;
+}
+
+.swiper-slide{
+  opacity: 20% !important;
+}
+
+.swiper-slide-active{
+  opacity: 100% !important;
+}
+
+.swiper-pagination-bullet{
+  border-radius: 0 !important;
+  background: #FFFFFF4D !important;
+}
+.swiper-pagination-bullet-active{
+background: white !important;
 }
 
 @media (max-width:1024px){

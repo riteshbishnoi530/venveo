@@ -1,15 +1,16 @@
 import './App.css';
-import Featured from './components/Featured';
-import Hero from './components/Hero';
-import Marketing from './components/Marketing';
-import SatisfiedClients from './components/SatisfiedClients';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './view/Home';
 function App() {
   return (
     <div>
-      <Hero/>
-      <Featured/>
-      <SatisfiedClients/>
-      <Marketing/>
+      
+
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }

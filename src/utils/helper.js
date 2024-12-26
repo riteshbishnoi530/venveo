@@ -148,4 +148,60 @@ export const CLIENTS_CARDS = [
       listThree: "Turn opportunities into closed deals",
       btn: "Explore SEO Services ",
     },
-  ]
+  ];
+
+  export const INDUSTRY_EXPERTISE = [
+    {
+      heading: 'the smartest minds in the industry',
+      subHeading: 'Answer our questions and listen to our answers.',
+      description: 'This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.',
+      cardHeading: 'Matt Risinger on How to Develop Lasting Relationships with Builders',
+      cardDescription: 'Chief Builder of Rising Build and founder of the',
+      link: 'Build Show Network'
+    }
+  ];
+
+  export const SLIDER_LIST = [
+    {
+      image: "/assets/images/actual-slider-1.webp",
+      quote:
+        "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+      name: "Jon Vaughan",
+      title: "REGIONAL VP-SE AT US LBM",
+    },
+    {
+      image: "/assets/images/actual-slider-2.webp",
+      quote:
+        "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+      name: "Jon Vaughan",
+      title: "REGIONAL VP-SE AT US LBM",
+    },
+    {
+      image: "/assets/images/actual-slider-3.webp",
+      quote:
+        "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+      name: "Jon Vaughan",
+      title: "REGIONAL VP-SE AT US LBM",
+    },
+    {
+      image: "/assets/images/actual-slider-1.webp",
+      quote:
+        "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+      name: "Jon Vaughan",
+      title: "REGIONAL VP-SE AT US LBM",
+    },
+    {
+      image: "/assets/images/actual-slider-2.webp",
+      quote:
+        "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+      name: "Jon Vaughan",
+      title: "REGIONAL VP-SE AT US LBM",
+    },
+    {
+      image: "/assets/images/actual-slider-3.webp",
+      quote:
+        "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+      name: "Jon Vaughan",
+      title: "REGIONAL VP-SE AT US LBM",
+    }
+  ];

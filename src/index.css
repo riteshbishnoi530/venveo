@@ -9,3 +9,8 @@
   font-family: "maison-neue";
   src: url("/public/assets/fonts/MaisonNeue-Light.otf") format("truetype");
  }
+
+ @font-face {
+  font-family: "space-mono";
+  src: url("/public/assets/fonts/SpaceMono-Regular.ttf") format("truetype");
+ }
