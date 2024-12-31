@@ -1,4 +1,4 @@
-import { AmberIcon, CplIcon, FarnsWorthIcon, FourCircleIcon, GenratingIcon, UsIcon } from "./icons";
+import { AmberIcon, BuildBrandIcon, CplIcon, EyeIcon, FacebookIcon, FarnsWorthIcon, FourCircleIcon, GenratingIcon, GetCustomersIcon, ImproveIcon, InstagramIcon, LinkedInIcon, TrackResultIcon, TwitterIcon, UsIcon, YoutubeIcon } from "./icons";
 
 export const HEADER_LIST = [
     {
@@ -205,3 +205,124 @@ export const CLIENTS_CARDS = [
       title: "REGIONAL VP-SE AT US LBM",
     }
   ];
+
+  export const LEARN_LIST = [
+    {
+      heading: "guides",
+      subHeading: "Marketing to Contractors and Installers:",
+      subHeadingTwo:'The Ultimate Guide',
+      description: "Understanding the process and maximize the opportunities",
+      btn: "Read More",
+    },
+  ];
+
+  export const CARDS_LIST = [
+    {
+      heading: "multi-channel marketing",
+      subHeading: "How to Get Your Product into Lowe's",
+      description: "Understanding the process and maximize the opportunities",
+      button: "Read More",
+    },
+    {
+      heading: "lead-gen",
+      subHeading: "Get Your Sales Team Ready for Digital Leads",
+      description:
+        "unlock substantial business growth by enhancing collaboration skills and digital marketing expertise",
+      button: "Read More",
+    },
+    {
+      heading: "ecommerce",
+      subHeading: "How to Sell Building Materials Online",
+      description:
+        "Explore how selling building materials online opens up wider audiences, efficient sales and insightful data,",
+      button: "Read More",
+    },
+  ];
+
+  export const FOOTER_LIST = [
+    {
+      title: "how we help",
+      list: "Get more Customers",
+      listTwo: "Drive More Leads",
+      listThree: "Build Your Brand",
+      listFour: "Improve your reputation",
+      listFive: "Track Results",
+    },
+    {
+      title: "who we help",
+      list: "Digital Advertising",
+      listTwo: "Search Engine Ranking",
+      listThree: "Content Marketing",
+      listFour: "Programic Advertising",
+      listFive: "Email Marketing",
+    },
+    {
+      title: "why venveo",
+      list: "About Us",
+      listTwo: "Careers",
+      listThree: "Growth Studies",
+      listFour: "Testimonials",
+    },
+    {
+      title: "resources",
+      list: "Articles",
+      listTwo: "News",
+      listThree: "Webinars",
+      listFour: "EBooks",
+      listFive: "Podcast",
+    },
+  ];
+
+  export const FOOTER_MOBILE_LIST = [
+    {   
+        icon: <EyeIcon/>,
+        iconTwo:<GetCustomersIcon/>,
+        iconThree:<BuildBrandIcon/>,
+        iconFour:<ImproveIcon/>,
+        iconFive:<TrackResultIcon/>,
+      title: "How We Help ▼",
+      list: "Drive More Awareness",
+      listTwo: "Get More Customers",
+      listThree: "Build Your Brand",
+      listFour: "Improve your reputation",
+      listFive: "Track Results",
+    },
+    {
+      title: "Who We Help ▼",
+      list: "Digital Advertising",
+      listTwo: "Search Engine Ranking",
+      listThree: "Content Marketing",
+      listFour: "Programic Advertising",
+      listFive: "Email Marketing",
+    },
+    {
+      title: "Why Venveo ▼",
+      list: "About Us",
+      listTwo: "Careers",
+      listThree: "Growth Studies",
+      listFour: "Testimonials",
+    }
+  ];
+
+  export const MEDIA_ICON_LIST = [
+    {
+        icon: <FacebookIcon/>,
+        link: "https://www.facebook.com",
+    },
+    {
+        icon: <InstagramIcon/>,
+        link: "https://www.instagram.com",
+    },
+    {
+        icon: <TwitterIcon/>,
+        link: "https://www.twitter.com",
+    },
+    {
+        icon: <LinkedInIcon/>,
+        link: "https://www.linkedin.com",
+    },
+    {
+        icon: <YoutubeIcon/>,
+        link: "https://www.youtube.com",
+    },
+  ]

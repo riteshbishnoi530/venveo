@@ -35,7 +35,7 @@ const Marketing = () => {
                                     <li className='font-semibold text-black leading-[20px] text-custom-sm'>{obj.listTwo}</li>
                                     <li className='font-semibold text-black leading-[20px] text-custom-sm'>{obj.listThree}</li>
                                 </ul>
-                                <button className="mt-[52px] flex items-center gap-2 max-md:mt-8 hover:scale-95 transition-all ease-in-out duration-300 max-sm:mt-6 text-custom-sm font-semibold leading-[20px]">
+                                <button className="mt-[52px] flex items-center gap-2 max-md:mt-8 hover:gap-4 transition-all ease-in-out duration-300 max-sm:mt-6 text-custom-sm font-semibold leading-[20px]">
                                     {obj.btn} <BtnArrow/>
                                 </button>
                             </div>

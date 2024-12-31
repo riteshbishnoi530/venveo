@@ -15,8 +15,8 @@ const ResultSlider = () => {
     return (
         <div className="bg-cover relative bg-no-repeat bg-center bg-actual-results flex flex-col justify-center items-center">
             <div className="text-center pt-[119px]  max-xl:pt-20 max-lg:pt-14 max-md:pt-10 max-sm:pt-6 px-4 md:px-6 lg:px-0">
-                <SubHeading heading="Actual businesses." />
-                <Heading boldHeading="Actual results." />
+                <SubHeading heading="Actual businesses." className="!text-white" />
+                <Heading boldHeading="Actual results." className="!text-white"  />
                 <p className="text-white  font-normal space-mono text-sm sm:text-base md:text-lg lg:text-customsm leading-5 pt-4 sm:pt-6 md:pt-10">
                     Businesses trust Venveo to power growth.
                 </p>

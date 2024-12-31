@@ -6,6 +6,10 @@ import Hero from '../components/Hero';
 import Marketing from '../components/Marketing';
 import SatisfiedClients from '../components/SatisfiedClients';
 import ActualResults from '../components/ActualResults';
+import LearnFrom from '../components/LearnFrom';
+import ThreeCards from '../components/ThreeCards';
+import Goals from '../components/Goals';
+import Footer from '../components/Footer';
 
 function Home() {
     return (
@@ -17,6 +21,10 @@ function Home() {
             <CompetitiveAnalysis />
             <GrowthPartner />
             <ActualResults />
+            <LearnFrom/>
+            <ThreeCards/>
+            <Goals/>
+            <Footer/>
         </div>
     )
 }

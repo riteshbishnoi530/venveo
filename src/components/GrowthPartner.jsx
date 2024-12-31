@@ -19,31 +19,33 @@ const GrowthPartner = () => {
 
     const handleTabClick = (tabIndex) => {
         setActiveTab(tabIndex);
-        setSearchParams({ tab: tabNames[tabIndex - 1] });
+        setSearchParams({ tab: tabNames[tabIndex - 1].toLowerCase().replace(/\s+/g, '-') });
     };
 
     const renderTabContent = () => {
         if (activeTab === 1) {
             return (
                 <div className='bg-cover bg-no-repeat bg-center lg:bg-industry-expertise max-lg:bg-tab-one-card w-full max-w-[1280px] max-lg:h-full h-[720px] mx-auto'>
-                    <div className='ps-[79px] pt-[75px] max-lg:p-12 max-md:p-8 max-sm:p-5'>
+                    <div className='pt-[75px] max-lg:pt-12 max-md:pt-8 max-sm:pt-5 max-sm:pb-0 max-sm:-mb-4'>
                         <h3 className='text-white font-bold text-custom-3xl uppercase max-xl:text-6xl max-lg:text-5xl max-md:text-4xl font-sohne leading-[70px] max-w-[415px]'>
                             The smartest minds in the industry
                         </h3>
                         <p className='max-w-[360px] font-light text-3xl max-md:text-2xl text-white leading-[30px]'>
                             Answer our questions and listen to our answers.
                         </p>
-                        <p className='max-w-[360px] mt-[31px] font-normal text-custom-sm font-maisonRegular leading-[20px] text-white'>
+                        <p className='max-w-[360px] mt-[31px] font-normal text-custom-sm font-sohne leading-[20px] text-white'>
                             This is placeholder but can add more to the business of building, some epic fails (and how to avoid them) and everything building science.
                         </p>
                         <button className='flex items-center bg-red-700 gap-[10px] mt-[98px] p-[31px] font-semibold text-custom-sm text-white'>
                             <PodcastIcon />Subscribe to Podcast ▼
                         </button>
                         <div>
-                            <div className='overflow-x-scroll'>
-                            <img src="/assets/images/patners-logo-img.webp" alt="logo" className='w-[701px] lg:hidden mx-auto' />
+                            <div className='overflow-x-auto overflow-hidden mt-6'>
+                                <div className='w-[700px] mx-auto max-lg:w-[600px]'>
+                            <img src="/assets/images/patners-logo-img.webp" alt="logo" className='w-full lg:hidden mx-auto overflow-x-auto' />
                             </div>
-                            <img src="/assets/images/tab-one-card.webp" alt="card" className='lg:hidden max-w-[320px] mt-5 mx-auto' />
+                            </div>
+                            <img src="/assets/images/tab-one-card.webp" alt="card" className='lg:hidden max-w-[332px] mx-auto' />
                         </div>
                     </div>
                 </div>
@@ -93,21 +95,21 @@ const GrowthPartner = () => {
     };
 
     return (
-        <div className='pt-[113px] pb-[60px]'>
+        <div className='pt-[113px] max-lg:pt-[60px] max-md:pb-9 pb-[60px]'>
             <Heading boldHeading="The growth partner " />
             <SubHeading heading='you’ve been looking for.' />
-            <p className='mt-[43px] font-normal text-customsm text-black leading-[20px] font-maisonRegular text-center'>
+            <p className='mt-[43px] font-normal text-custom-sm text-black leading-[20px] space-mono text-center'>
                 Businesses trust Venveo to power grow.
             </p>
 
             <div className='tabs-parent mt-[105px] relative z-20'>
-                <div className='overflow-x-scroll h-10 mb-10'>
+                <div className='overflow-x-auto h-10 mb-10'>
                 <div className='relative flex items-center justify-center gap-[78px] w-[600px] mx-auto'>
                     {tabNames.map((tabName, index) => (
                         <p
                             key={index}
                             onClick={() => handleTabClick(index + 1)}
-                            className={`text-lg font-semibold text-black opacity-35 leading-[18px] font-maiso cursor-pointer ${
+                            className={`text-lg font-semibold text-black opacity-35 leading-[18px] cursor-pointer ${
                                 activeTab === index + 1 ? 'text-black !opacity-100' : ''
                             }`}
                         >
@@ -116,7 +118,13 @@ const GrowthPartner = () => {
                                 <img
                                     src="/assets/images/red-line.webp"
                                     alt="redline"
-                                    className="mx-auto absolute max-w-[155px] w-full"
+                                    style={{
+                                        maxWidth:
+                                            activeTab === 3 ? '183px' : 
+                                            activeTab === 2 ? '100px' : 
+                                            '155px',
+                                        width: '100%'
+                                    }} className="mx-auto absolute w-full"
                                 />
                             )}
                         </p>
@@ -125,8 +133,10 @@ const GrowthPartner = () => {
                 </div>
                 <div className='mt-[57px]'>{renderTabContent()}</div>
             </div>
-            <img src="/assets/images/tab-bg-line.webp" alt="line" className='w-full absolute z-0 -translate-y-5' />
-            <img src="/assets/images/tab-img-bottom-line.webp" alt="line" className='w-full mt-2' />
+            <div className='max-md:mt-10'>
+            <img src="/assets/images/tab-bg-line.webp" alt="line" className='w-full absolute z-0 -translate-y-5'/>
+            <img src="/assets/images/tab-img-bottom-line.webp" alt="line" className='w-full mt-2'/>
+            </div>
         </div>
     );
 };

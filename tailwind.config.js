@@ -17,14 +17,20 @@ module.exports = {
         'tab-two': "url('/public/assets/images/tab-2-bg.webp')",
         'tab-two-sm': "url('/public/assets/images/tab-two-sm-img.webp')",
         'tab-three': "url('/public/assets/images/radar-img.webp')",
-        'tab-three-sm': "url('/public/assets/images/tab-three-sm-img.webp')"
+        'tab-three-sm': "url('/public/assets/images/tab-three-sm-img.webp')",
+        'card-one': "url('/public/assets/images/multi-channel-marketing.webp')",
+        'card-two': "url('/public/assets/images/lead-gen.webp')",
+        'card-three': "url('/public/assets/images/ecommerce.webp')",
+        'goals': "url('/public/assets/images/goals-bg.webp')"
+
       },
       fontSize: {
         'custom-9xl': '120px',
         'custom-3xl': '80px',
         'custom-2xl': '40px',
         'custom-xl': '22px',
-        'custom-sm': '15px'
+        'custom-sm': '15px',
+        'custom-xs': '13px'
       },
       colors: {
         'off-white': '#FFFFFF99',
