@@ -25,7 +25,7 @@ function Hero() {
           <img className='md:hidden mt-[66px] px-4 max-sm:mt-12' src="/assets/images/hero-overlapping-small.webp" alt="small-screen" />
         </div>
       </div>
-      <img className='mt-5 max-md:hidden w-full' src="/assets/images/background-squiggle.webp" alt="bg-line"/>
+      <img className='mt-5 max-md:hidden w-full' src="/assets/images/background-squiggle.webp" alt="bg-line" />
     </div>
   )
 }

@@ -12,10 +12,10 @@ function CompetitiveAnalysis() {
                     <p className='lg:hidden text-black text-custom-2xl font-light'>Start earning more money now</p>
                 </div>
                 <div className='max-lg:hidden absolute arrow-rotate left-[48%] top-[50%]'>
-                    <ArrowLine/>
+                    <ArrowLine />
                 </div>
                 <div className='lg:hidden absolute arrow-rotate left-[60%] top-[32%] max-[570px]:top-[40%]'>
-                    <SmallArrowLine/>
+                    <SmallArrowLine />
                 </div>
                 <form className='py-[18.5px] max-lg:mt-[76px] px-[34px] rounded-[50px] max-w-[446px] w-full flex justify-between gap-5 mt-[34px] bg-white'>
                     <input className='bg-transparent text-black placeholder:text-black outline-none w-full' type="text" placeholder='Enter Your Website' required />

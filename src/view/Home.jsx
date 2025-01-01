@@ -13,7 +13,7 @@ import Footer from '../components/Footer';
 
 function Home() {
     return (
-        <div>
+        <>
             <Hero />
             <Featured />
             <SatisfiedClients />
@@ -21,11 +21,11 @@ function Home() {
             <CompetitiveAnalysis />
             <GrowthPartner />
             <ActualResults />
-            <LearnFrom/>
-            <ThreeCards/>
-            <Goals/>
-            <Footer/>
-        </div>
+            <LearnFrom />
+            <ThreeCards />
+            <Goals />
+            <Footer />
+        </>
     )
 }
 

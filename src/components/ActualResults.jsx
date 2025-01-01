@@ -16,8 +16,8 @@ const ResultSlider = () => {
         <div className="bg-cover relative bg-no-repeat bg-center bg-actual-results flex flex-col justify-center items-center">
             <div className="text-center pt-[119px]  max-xl:pt-20 max-lg:pt-14 max-md:pt-10 max-sm:pt-6 px-4 md:px-6 lg:px-0">
                 <SubHeading heading="Actual businesses." className="!text-white" />
-                <Heading boldHeading="Actual results." className="!text-white"  />
-                <p className="text-white  font-normal space-mono text-sm sm:text-base md:text-lg lg:text-customsm leading-5 pt-4 sm:pt-6 md:pt-10">
+                <Heading boldHeading="Actual results." className="!text-white" />
+                <p className="text-white  font-normal space-mono text-sm sm:text-base md:text-lg lg:text-custom-sm leading-5 pt-4 sm:pt-6 md:pt-10">
                     Businesses trust Venveo to power growth.
                 </p>
             </div>
@@ -51,7 +51,7 @@ const ResultSlider = () => {
                         1024: {
                             slidesPerView: 2,
                             spaceBetween: 30,
-                            autoplay:false
+                            autoplay: false
                         },
                     }}
                     modules={[Navigation, Pagination, Autoplay]}
@@ -65,13 +65,13 @@ const ResultSlider = () => {
                                     alt={`Slide ${index + 1}`}
                                     className="w-full max-w-[640px] max-sm:max-w-full mx-auto"
                                 />
-                                <p className="text-white pt-6 sm:pt-8 lg:pt-[74px] font-maison font-light max-w-[300px] sm:max-w-[450px] lg:max-w-[613px] mx-auto text-3xl max-sm:text-2xl">
+                                <p className="text-white pt-6 sm:pt-8 lg:pt-[74px] font-light max-w-[300px] sm:max-w-[450px] lg:max-w-[613px] mx-auto text-3xl max-sm:text-2xl">
                                     {`"${slide.quote}"`}
                                 </p>
-                                <p className="text-white font-normal pt-4 sm:pt-5 space-mono text-sm sm:text-base lg:text-customsm">
+                                <p className="text-white font-normal pt-4 sm:pt-5 space-mono text-sm sm:text-base lg:text-custom-sm">
                                     {slide.name},
                                 </p>
-                                <p className="text-white font-normal space-mono text-sm sm:text-base lg:text-customsm">
+                                <p className="text-white font-normal space-mono text-sm sm:text-base lg:text-custom-sm">
                                     {slide.title}
                                 </p>
                                 <p className="text-center pt-3 mx-auto flex items-center justify-center">
@@ -83,12 +83,12 @@ const ResultSlider = () => {
                 </Swiper>
                 <div className="max-md:hidden swiper-button-prev  absolute !left-0  top-[50%] transform translate-y-[-50%]">
                     <button className=" w-[61px] max-md:hidden rounded-full flex items-center justify-center">
-                    <img src="/assets/images/prev-arrow.webp" alt="prev"/>
+                        <img src="/assets/images/prev-arrow.webp" alt="prev" />
                     </button>
                 </div>
                 <div className="max-md:hidden swiper-button-next absolute !right-0 top-[50%] transform translate-y-[-50%]">
                     <button className="bg-white max-md:hidden rounded-full flex items-center justify-center">
-                    <img src="/assets/images/next-arrow.webp" alt="next"/>
+                        <img src="/assets/images/next-arrow.webp" alt="next" />
                     </button>
                 </div>
             </div>

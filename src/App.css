@@ -40,11 +40,13 @@
   border-radius: 0 !important;
   background: #FFFFFF4D !important;
 }
+
 .swiper-pagination-bullet-active{
 background: white !important;
 }
 
 @media (max-width:1024px){
+
   @keyframes slide-right{
     0% {
       transform: translateX(100%);
@@ -64,6 +66,7 @@ background: white !important;
   }
 }
 @media (max-width:640px){
+
   @keyframes slide-right{
     0% {
       transform: translateX(50%);
@@ -72,13 +75,5 @@ background: white !important;
     100% {
       transform: translateX(-55%);
     }
-  }
-  
-  .slide-scroll-left {
-    animation: slide-right 10s linear infinite;
-    }
-
-  .slide-scroll-left:hover {
-    animation-play-state: paused;
   }
 }

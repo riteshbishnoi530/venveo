@@ -22,8 +22,8 @@ module.exports = {
         'card-two': "url('/public/assets/images/lead-gen.webp')",
         'card-three': "url('/public/assets/images/ecommerce.webp')",
         'goals': "url('/public/assets/images/goals-bg.webp')"
-
       },
+      
       fontSize: {
         'custom-9xl': '120px',
         'custom-3xl': '80px',
@@ -32,6 +32,7 @@ module.exports = {
         'custom-sm': '15px',
         'custom-xs': '13px'
       },
+
       colors: {
         'off-white': '#FFFFFF99',
         'off-green': '#097980',

@@ -42,8 +42,8 @@ const GrowthPartner = () => {
                         <div>
                             <div className='overflow-x-auto overflow-hidden mt-6'>
                                 <div className='w-[700px] mx-auto max-lg:w-[600px]'>
-                            <img src="/assets/images/patners-logo-img.webp" alt="logo" className='w-full lg:hidden mx-auto overflow-x-auto' />
-                            </div>
+                                    <img src="/assets/images/patners-logo-img.webp" alt="logo" className='w-full lg:hidden mx-auto overflow-x-auto' />
+                                </div>
                             </div>
                             <img src="/assets/images/tab-one-card.webp" alt="card" className='lg:hidden max-w-[332px] mx-auto' />
                         </div>
@@ -75,7 +75,7 @@ const GrowthPartner = () => {
                         <h3 className='text-white uppercase font-bold text-custom-3xl max-xl:text-6xl max-lg:text-5xl max-md:text-4xl font-sohne leading-[70px]'>
                             Project Radar
                         </h3>
-                        <LogoIpsum/>
+                        <LogoIpsum />
                         <p className='pt-[162px] max-xl:pt-24 max-lg:pt-16 max-md:pt-11 max-sm:pt-8 max-w-[360px] font-light text-custom3xl max-md:text-2xl text-white leading-[30px]'>
                             Lorem ipsum what this product actually does.
                         </p>
@@ -83,9 +83,9 @@ const GrowthPartner = () => {
                             This is placeholder but can add more to the business of building, some epic fails (and how to avoid them) and everything building science.
                         </p>
                         <button className='flex items-center bg-lime-green gap-[10px] mt-11 px-9 py-7 font-semibold text-custom-sm text-black'>
-                            Call to Action Somewhere<BlackArrow/>
+                            Call to Action Somewhere<BlackArrow />
                         </button>
-                            <img src="/assets/images/card-data-img.webp" alt="card-data" className='lg:hidden mx-auto mt-20'/>
+                        <img src="/assets/images/card-data-img.webp" alt="card-data" className='lg:hidden mx-auto mt-20' />
                     </div>
                 </div>
             );
@@ -104,38 +104,37 @@ const GrowthPartner = () => {
 
             <div className='tabs-parent mt-[105px] relative z-20'>
                 <div className='overflow-x-auto h-10 mb-10'>
-                <div className='relative flex items-center justify-center gap-[78px] w-[600px] mx-auto'>
-                    {tabNames.map((tabName, index) => (
-                        <p
-                            key={index}
-                            onClick={() => handleTabClick(index + 1)}
-                            className={`text-lg font-semibold text-black opacity-35 leading-[18px] cursor-pointer ${
-                                activeTab === index + 1 ? 'text-black !opacity-100' : ''
-                            }`}
-                        >
-                            {tabName}
-                            {activeTab === index + 1 && (
-                                <img
-                                    src="/assets/images/red-line.webp"
-                                    alt="redline"
-                                    style={{
-                                        maxWidth:
-                                            activeTab === 3 ? '183px' : 
-                                            activeTab === 2 ? '100px' : 
-                                            '155px',
-                                        width: '100%'
-                                    }} className="mx-auto absolute w-full"
-                                />
-                            )}
-                        </p>
-                    ))}
-                </div>
+                    <div className='relative flex items-center justify-center gap-[78px] w-[600px] mx-auto'>
+                        {tabNames.map((tabName, index) => (
+                            <p
+                                key={index}
+                                onClick={() => handleTabClick(index + 1)}
+                                className={`text-lg font-semibold text-black opacity-35 leading-[18px] cursor-pointer ${activeTab === index + 1 ? 'text-black !opacity-100' : ''
+                                    }`}
+                            >
+                                {tabName}
+                                {activeTab === index + 1 && (
+                                    <img
+                                        src="/assets/images/red-line.webp"
+                                        alt="redline"
+                                        style={{
+                                            maxWidth:
+                                                activeTab === 3 ? '183px' :
+                                                    activeTab === 2 ? '100px' :
+                                                        '155px',
+                                            width: '100%'
+                                        }} className="mx-auto absolute w-full"
+                                    />
+                                )}
+                            </p>
+                        ))}
+                    </div>
                 </div>
                 <div className='mt-[57px]'>{renderTabContent()}</div>
             </div>
             <div className='max-md:mt-10'>
-            <img src="/assets/images/tab-bg-line.webp" alt="line" className='w-full absolute z-0 -translate-y-5'/>
-            <img src="/assets/images/tab-img-bottom-line.webp" alt="line" className='w-full mt-2'/>
+                <img src="/assets/images/tab-bg-line.webp" alt="line" className='w-full absolute z-0 -translate-y-5' />
+                <img src="/assets/images/tab-img-bottom-line.webp" alt="line" className='w-full mt-2' />
             </div>
         </div>
     );
