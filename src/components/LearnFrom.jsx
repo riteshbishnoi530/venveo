@@ -5,7 +5,7 @@ import Heading from '../common/Heading'
 
 const LearnFrom = () => {
     return (
-        <div className='mt-[109px] mb-[59px] max-xl:mt-20 max-md:my-14 max-sm:my-10'>
+        <div className='mt-[109px] max-xl:mt-20 max-md:mt-14 max-sm:mt-10'>
             <Heading boldHeading='Learn from us.' />
             <p className='text-black  font-normal text-custom-sm text-center leading-[20px]'>Digital marketing resources from Venveo to help you grow.</p>
             <div className='flex items-center justify-center mt-9 max-lg:mt-6 max-sm:mt-5'>

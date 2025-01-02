@@ -3,7 +3,7 @@ import Header from './Header'
 
 function Hero() {
   return (
-    <div className='mb-80 max-md:mb-0'>
+    <div className='mb-[300px] max-md:mb-0'>
       <div className='md:bg-off-green pb-72 max-lg:pb-60 max-md:pb-20 max-sm:pb-8'>
         <div className='relative max-w-[1920px] max-md:bg-hero-image-small bg-top bg-[length:100%_75%] bg-no-repeat mx-auto'>
           <img className='absolute max-w-[340px] max-lg:max-w-[300px] max-md:hidden top-0 left-0' src="/assets/images/hero-left-layer.webp" alt="left-layer" />

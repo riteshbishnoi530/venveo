@@ -25,7 +25,7 @@ const ResultSlider = () => {
             <div className="mx-auto flex items-center justify-center w-full pt-10 md:pt-[81px] max-w-[1920px]">
                 <Swiper
                     slidesPerView={1}
-                    spaceBetween={90}
+                    spaceBetween={257}
                     centeredSlides={true}
                     navigation={{
                         nextEl: '.swiper-button-next',

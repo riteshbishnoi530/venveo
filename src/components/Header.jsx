@@ -79,7 +79,7 @@ const Header = () => {
                     </div>
                     <button className="max-lg:hidden bg-lime-green pl-[33.97px] pr-[34px] flex items-center gap-1.5 text-black text-custom-sm hover:bg-off-lime-green transition-all duration-300 ease">Let’s Talk <ButtonArrow /></button>
                 </div>
-                <div onClick={toggleSidebar} className='z-[15] flex-col gap-3 lg:hidden flex'>
+                <div onClick={toggleSidebar} className='z-[15] flex-col gap-3 lg:hidden flex cursor-pointer'>
                     <span className={`${open ? 'w-[31px] h-0.5 bg-white rotate-[-45deg] translate-y-[12.5px] duration-300 ease-linear rounded' : 'w-[31px] h-0.5 bg-white duration-300 ease-linear rounded'}`}></span>
                     <span className={`${open ? 'w-[31px] h-0.5 bg-white rotate-[45deg] -translate-y-[2px] duration-300 ease-linear rounded' : 'w-[31px] h-0.5 bg-white duration-300 ease-linear rounded'}`}></span>
                 </div>

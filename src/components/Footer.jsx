@@ -29,7 +29,7 @@ const Footer = () => {
                     <div className='w-8/12 max-lg:w-full flex gap-[82px] max-md:gap-2 max-sm:flex-wrap max-sm:justify-center max-sm:items-center md:hidden sm:text-center text-start'>
                         {FOOTER_MOBILE_LIST.map((obj, i) => (
                             <div key={i} className='w-3/12 max-lg:w-full'>
-                                <h3 onClick={() => listToggle(i)} className='text-lime-green text-xs font-medium leading-[108%] uppercaseMedium'>{obj.title}</h3>
+                                <h3 onClick={() => listToggle(i)} className='text-lime-green cursor-pointer text-xs font-medium leading-[108%] uppercaseMedium'>{obj.title}</h3>
                                 <ul className={`overflow-hidden duration-300 ease-linear flex flex-col gap-6 ${mobileList === i ? "max-h-[300px] pt-5" : "max-h-0"}`}>
                                     <li className='flex gap-4 items-center'>{obj.icon}<a href="/" className='text-white font-lightLight text-custom-sm leading-[30px] hover:text-lime-green duration-300 ease-linear'>{obj.list}</a></li>
                                     <li className='flex gap-4 items-center'>{obj.iconTwo}<a href="/" className='text-white font-lightLight text-custom-sm leading-[30px] hover:text-lime-green duration-300 ease-linear'>{obj.listTwo}</a></li>
@@ -63,7 +63,7 @@ const Footer = () => {
                             Blacksburg, VA 24060</a></li>
                     </ul>
                     <ul>
-                        <p className='uppercase text-sm leading-[108%] text-whiteMedium font-medium pb-0.5'>contact</p>
+                        <p className='uppercase text-sm leading-[108%] text-white font-medium pb-0.5'>contact</p>
                         <li className='pt-7'><a href="mailto:info@venveo.com" className='text-white font-light text-[13px] leading-[153%px] hover:text-lime-green duration-300 ease-linear border-b border-lime-green'>info@venveo.com</a></li>
                         <li className='pt-5'><a href="tel:+4733378901" className='text-white font-light text-[13px] leading-[153%px] hover:text-lime-green duration-300 ease-linear border-b border-lime-green'>1 · 800 · 123 · 4567</a></li>
                     </ul>
@@ -100,7 +100,7 @@ const Footer = () => {
                 </div>
                 <div className='flex items-center justify-center flex-col text-center pt-14'>
                     <a href="#" className='pb-0.5'><FooterLogo /></a>
-                    <p className='max-w-[415px] text-white text-[13px] font-normalLight leadin-[153%] pt-3'>Venveo is an award-winning digital marketing <span className='block'>solutions provider. Since 2003.</span>
+                    <p className='max-w-[415px] text-white text-[13px] font-normalLight leading-[153%] pt-3'>Venveo is an award-winning digital marketing <span className='block'>solutions provider. Since 2003.</span>
                         ©{currentYear} Venveo</p>
                 </div>
                 <div className='flex gap-8 pt-9'>
