@@ -1,77 +1,76 @@
-
-
- .font-sohne{
+.font-sohne {
   font-family: "sohne-schmal";
- }
+}
 
- .space-mono{
+.space-mono {
   font-family: "space-mono";
- }
+}
 
-*{
+* {
   font-family: "maison-neue";
 }
 
-.swiper-button-next:after{
+.swiper-button-next:after {
   display: none !important;
 }
 
-.swiper-button-prev:after{
+.swiper-button-prev:after {
   display: none !important;
 }
 
-.swiper-button-prev{
+.swiper-button-prev {
   width: 60px !important;
 }
 
-.swiper-button-next{
+.swiper-button-next {
   width: 60px !important;
 }
 
-.swiper-slide{
+.swiper-slide {
   opacity: 20% !important;
 }
 
-.swiper-slide-active{
+.swiper-slide-active {
   opacity: 100% !important;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   border-radius: 0 !important;
   background: #FFFFFF4D !important;
 }
 
-.swiper-pagination-bullet-active{
-background: white !important;
+.swiper-pagination-bullet-active {
+  background: white !important;
 }
 
-@media (max-width:1024px){
+@media (max-width:1024px) {
 
-  @keyframes slide-right{
+  @keyframes slide-right {
     0% {
       transform: translateX(100%);
     }
-  
+
     100% {
       transform: translateX(-100%);
     }
   }
-  
+
   .slide-scroll-left {
     animation: slide-right 10s linear infinite;
-    }
+  }
 
   .slide-scroll-left:hover {
     animation-play-state: paused;
   }
 }
-@media (max-width:640px){
 
-  @keyframes slide-right{
+@media (max-width:640px) {
+
+  @keyframes slide-right {
     0% {
       transform: translateX(50%);
     }
-  
+
     100% {
       transform: translateX(-55%);
     }

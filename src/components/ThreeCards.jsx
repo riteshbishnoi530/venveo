@@ -15,11 +15,7 @@ const ThreeCards = () => {
         <div className='py-[60px] max-w-[1440px] mx-auto max-lg:pt-10 max-md:pt-6 max-sm:pt-4'>
             <div className='flex w-full justify-between max-xl:justify-center max-xl:flex-col max-xl:items-center max-xl:gap-7 max-xl:hidden'>
                 {CARDS_LIST.map((obj, i) => (
-                    <div
-                        key={i}
-                        className={`bg-cover bg-no-repeat min-h-[551px] w-full max-w-[440px] p-7 flex items-end justify-center ${i === 0 ? 'bg-card-one' : i === 1 ? 'bg-card-two' : 'bg-card-three'
-                            }`}
-                    >
+                    <div key={i} className={`bg-cover bg-no-repeat min-h-[551px] w-full max-w-[440px] p-7 flex items-end justify-center ${i === 0 ? 'bg-card-one' : i === 1 ? 'bg-card-two' : 'bg-card-three'}`} >
                         <div className='bg-white p-7 pt-9 w-full rounded-3xl'>
                             <p className='text-custom-sm  uppercase leading-[15px] text-[#00AFB5] pb-[15px]'>
                                 {obj.heading}

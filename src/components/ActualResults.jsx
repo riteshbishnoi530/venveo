@@ -62,7 +62,7 @@ const ResultSlider = () => {
                             <div className="text-center w-full max-w-[992px] mx-auto">
                                 <img
                                     src={slide.image}
-                                    alt={`Slide ${index + 1}`}
+                                    alt="Slides"
                                     className="w-full max-w-[640px] max-sm:max-w-full mx-auto"
                                 />
                                 <p className="text-white pt-6 sm:pt-8 lg:pt-[74px] font-light max-w-[300px] sm:max-w-[450px] lg:max-w-[613px] mx-auto text-3xl max-sm:text-2xl">
